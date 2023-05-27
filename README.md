@@ -4,43 +4,26 @@ The hotel industry has a high degree of competition in today's market. Competiti
 
 ## Dataset
 
-The dataset used in the project was taken from Kaggle named "Hotel Reservation Dataset". It has 119,390 observations and 32 features related to hotel reservations.
+The dataset used in the project was taken from Kaggle named "Hotel Reservation Dataset". It has 36,275 observations and 18 features related to hotel reservations.
 Attributes are a mix of categorical and numerical data. The target variable is "is_canceled", indicating whether the reservation has been cancelled.
 
-| Column Name | Description | Type |
-| --- | --- | --- |
-| hotel | Hotel (H1 = Resort Hotel or H2 = City Hotel) | categorical |
-| is_canceled | Value indicating if the booking was canceled (1) or not (0) | numerical |
-| lead_time | Number of days that elapsed between the entering date of the booking into the PMS and the arrival date | numerical |
-| arrival_date_year | Year of arrival date | numerical |
-| arrival_date_month | Month of arrival date | categorical |
-| arrival_date_week_number | Week number of year for arrival date | numerical |
-| arrival_date_day_of_month | Day of arrival date | numerical |
-| stays_in_weekend_nights | Number of weekend nights (Saturday or Sunday) the guest stayed or booked to stay at the hotel | numerical |
-| stays_in_week_nights | Number of week nights (Monday to Friday) the guest stayed or booked to stay at the hotel | numerical |
-| adults | Number of adults | numerical |
-| children | Number of children | numerical |
-| babies | Number of babies | numerical |
-| meal | Type of meal booked | categorical |
-| country | Country of origin | categorical |
-| market_segment | Market segment designation | categorical |
-| distribution_channel | Booking distribution channel | categorical |
-| is_repeated_guest | Value indicating if the booking name was from a repeated guest (1) or not (0) | numerical |
-| previous_cancellations | Number of previous bookings that were cancelled by the customer prior to the current booking | numerical |
-| previous_bookings_not_canceled | Number of previous bookings not cancelled by the customer prior to the current booking | numerical |
-| reserved_room_type | Code of room type reserved | categorical |
-| assigned_room_type | Code for the type of room assigned to the booking | categorical |
-| booking_changes | Number of changes/amendments made to the booking from the moment the booking was entered on the PMS until the moment of check-in or cancellation | numerical |
-| deposit_type | Indication on if the customer made a deposit to guarantee the booking | categorical |
-| agent | ID of the travel agency that made the booking | categorical |
-| company | ID of the company/entity that made the booking or responsible for paying the booking | categorical |
-| days_in_waiting_list | Number of days the booking was in the waiting list before it was confirmed to the customer | numerical |
-| customer_type | Type of booking, assuming one of four categories | categorical |
-| adr | Average Daily Rate, the sum of transactions divided by the total number of nights | numerical |
-| required_car_parking_spaces | Number of car parking spaces required by the customer | numerical |
-| total_of_special_requests | Number of special requests made by the customer (e.g. twin bed or high floor) | numerical |
-| reservation_status | Latest reservation status, assuming one of three categories: Canceled, Check-Out, or No-Show | categorical |
-| reservation_status_date | Date at which the last status was set | datetime |
+| Variable Name                        | Description                                                  |
+| ------------------------------------ | ------------------------------------------------------------ |
+| no_of_adults                         | Number of adults in the reservation                          |
+| no_of_children                       | Number of children in the reservation                        |
+| no_of_weekend_nights                 | Number of nights stayed during weekends                       |
+| no_of_week_nights                    | Number of nights stayed during weekdays                       |
+| required_car_parking_space           | Indicator of whether car parking space is required            |
+| lead_time                            | Number of days between booking and arrival date               |
+| arrival_year                         | Year of arrival                                              |
+| arrival_month                        | Month of arrival                                             |
+| arrival_date                         | Date of arrival                                              |
+| repeated_guest                       | Indicator of whether the guest is a repeated guest            |
+| no_of_previous_cancellations         | Number of previous canceled bookings by the guest             |
+| no_of_previous_bookings_not_canceled | Number of previous bookings by the guest that were not canceled |
+| avg_price_per_room                   | Average price per room                                        |
+| no_of_special_requests               | Number of special requests made by the guest                  |
+| booking_status                       | Indicator of whether the booking is confirmed (1) or unconfirmed (0) |
 
 
 
