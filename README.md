@@ -1,6 +1,6 @@
 # HOTEL BOOKING CHURN PREDICTION
 
-![image](https://github.com/anilcogalan/Miuulton-Hotel/assets/61653147/cd75627f-5bd2-4285-919b-b2c0e545bdeb)
+![image](https://github.com/anilcogalan/Miuulton-Hotel/assets/61653147/29920127-3649-4954-a9a0-b8b1c3fba24c)
 
 The hotel industry has a high degree of competition in today's market. Competition for customer retention is high for any hotel. The ability to predict customers who are most likely to leave can reduce the cost of hotels and help make proactive decisions. The aim of the project is to anticipate potential customers who may cancel their reservations and to prevent cancellations by offering an incentive or discount.
 
