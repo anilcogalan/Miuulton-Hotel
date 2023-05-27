@@ -86,5 +86,5 @@ The project concludes that it is possible to predict customers who are most like
 
 7.References
 
-Hotel Booking Dataset: https://www.kaggle.com/mojtaba142/hotel-booking 
-H. A. Abbasi and A. Hossain, "Churn Prediction in Hotel Industry Using Machine Learning," 2019 IEEE International Conference on Smart Systems and Technologies (SST), 2019, pp. 1-6, doi: 10.1109/SST.2019.8724088.
+* Hotel Booking Dataset: https://www.kaggle.com/mojtaba142/hotel-booking 
+* H. A. Abbasi and A. Hossain, "Churn Prediction in Hotel Industry Using Machine Learning," 2019 IEEE International Conference on Smart Systems and Technologies (SST), 2019, pp. 1-6, doi: 10.1109/SST.2019.8724088.
